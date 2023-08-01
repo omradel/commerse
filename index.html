@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-commerse</title>
+    <!-- main style file -->
+    <link rel="stylesheet" href="main.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- google font -->
+</head>
+    <body>
+        <!-- start of header -->
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logoo.png" alt="#">
+                    </a>
+                    <!-- start offcance -->
+                    <button class="btn d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <div class="sell-icons d-flex gap-3">
+                                <a href="basket.html">
+                                    <i class="fa-solid fa-cart-shopping bag"></i>
+                                </a>
+                                <a href="login.html">
+                                    <i class="fa-solid fa-user user"></i>
+                                </a>
+                                <a href="wishlist.html">
+                                    <i class="fa-regular fa-heart wishlist"></i>
+                                </a>
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body d-lg-none">
+                        <ul class="list-unstyled">
+                            <li class="border-bottom pb-2">
+                                <a href="index.html"  class="text-decoration-none">Home</a>
+                            </li>
+                            <li class="border-bottom pb-2 pt-2">
+                                <a href="products.html" class="text-decoration-none">Products</a>
+                            </li>
+                            <li class="border-bottom pb-2 pt-2">
+                                <a href="about.html" class="text-decoration-none">About us</a>
+                            </li>
+                            <li class="border-bottom pb-2 pt-2">
+                                <a href="contact.html" class="text-decoration-none">Contacts</a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                    <!-- end offcance -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html" >Home</a>
+                        </li>
+                        <li class="nav-item products">
+                            <a class="nav-link" href="products.html">Products</a>
+                            <!-- start megamenue -->
+                            <div class="mega d-flex lh-lg gap-4">
+                                <ul class="list-1 list-unstyled">
+                                    <li>
+                                        <a href="clothes.html"  class="text-decoration-none">Clothing&shoses</a>
+                                    </li>
+                                    <li>
+                                        <a href="sports.html"  class="text-decoration-none">Sports</a>
+                                    </li>
+                                    <li>
+                                        <a href="games.html"  class="text-decoration-none">Games</a>
+                                    </li>
+                                    <li>
+                                        <a href="electronic.html"  class="text-decoration-none">Electronic</a>
+                                    </li>
+                                    <li>
+                                        <a href="office-products.html" class="text-decoration-none">Office Products</a>
+                                    </li>
+                                </ul>
+                                <ul class="list-2 list-unstyled">
+                                    <li>
+                                        <a href="food.html" class="text-decoration-none">Grocery & Gourmet Food</a>
+                                    </li>
+                                    <li>
+                                        <a href="home-related.html" class="text-decoration-none"> Home Related</a>
+                                    </li>
+                                    <li>
+                                        <a href="automative.html" class="text-decoration-none"> Automotive Parts & Accessories</a>
+                                    </li>
+                                    <li>
+                                        <a href="home&garden.html" class="text-decoration-none"> Home & Garden</a>
+                                    </li>
+                                    <li>
+                                        <a href="health.html" class="text-decoration-none"> Health, Household & Baby Care</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- end megamenue -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contacts</a>
+                        </li>
+                    </ul>
+                    <form role="search" class="position-relative d-flex gap-3">
+                        <div class="search-btn">
+                            <input class="form-control me-2 rounded-pill"  placeholder="Search" aria-label="Search">
+                            <i class="fa-solid fa-magnifying-glass position-absolute text-black-50 search"></i>
+                        </div>
+                        <div class="sell-icons d-flex gap-3">
+                            <a href="basket.html">
+                                <i class="fa-solid fa-cart-shopping bag"></i>
+                            </a>
+                            <a href="login.html">
+                                <i class="fa-solid fa-user user"></i>
+                            </a>
+                            <a href="wishlist.html">
+                                <i class="fa-regular fa-heart wishlist"></i>
+                            </a>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- end of header -->
+        <!-- start of landing section -->
+        <div class="landing">
+            <div class="container text-center">
+                <div class="text">
+                    <h2> <span>Find products</span> <br> for the shop <br> store</h2>
+                    <p>Lorem ipsum dolor sit <br> amet consectetur, adipisicing elit. </p>
+                    <a href="products.html">
+                        <button type="button" class="btn btn-warning">shopping now</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- end of landing section -->
+        <!-- start of products section -->
+        <div class="products ">
+            <div class="container">
+                <div class="title text-center pt-5 pb-5">
+                    <h2>Trending Products</h2>
+                    <p>The most popular products</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-4 col-12">
+                        <div class="card" >
+                            <div class="image">
+                                <img src="images/p1.jpeg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                                <div class="stars-1">
+                                    <i class="fa-solid fa-star star-1"></i>
+                                    <i class="fa-solid fa-star star-2"></i>
+                                    <i class="fa-solid fa-star star-3"></i>
+                                    <i class="fa-solid fa-star star-4"></i>
+                                    <i class="fa-solid fa-star star-5"></i>
+                                </div>
+                                <div class="price">
+                                    <p>60$</p>
+                                </div>
+                                <div class="buttons d-flex">
+                                    <button type="button" class="btn">
+                                        <i class="fa-solid fa-cart-plus"></i>
+                                        Buy
+                                    </button>
+                                    <i class="fa-regular fa-heart wishlist btn"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12">
+                        <div class="card" >
+                            <div class="image">
+                                <img src="images/p2.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                                <div class="stars-2">
+                                    <i class="fa-solid fa-star star-1"></i>
+                                    <i class="fa-solid fa-star star-2"></i>
+                                    <i class="fa-solid fa-star star-3"></i>
+                                    <i class="fa-solid fa-star star-4"></i>
+                                    <i class="fa-solid fa-star star-5"></i>
+                                </div>
+                                <div class="price">
+                                    <p>60$</p>
+                                </div>
+                                <button type="button" class="btn">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Buy
+                                </button>
+                                <i class="fa-regular fa-heart wishlist btn"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12">
+                        <div class="card" >
+                            <div class="image">
+                                <img src="images/p3.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                                <div class="stars-3">
+                                    <i class="fa-solid fa-star star-1"></i>
+                                    <i class="fa-solid fa-star star-2"></i>
+                                    <i class="fa-solid fa-star star-3"></i>
+                                    <i class="fa-solid fa-star star-4"></i>
+                                    <i class="fa-solid fa-star star-5"></i>
+                                </div>
+                                <div class="price">
+                                    <p>60$</p>
+                                </div>
+                                <button type="button" class="btn">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Buy
+                                </button>
+                                <i class="fa-regular fa-heart wishlist btn"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12">
+                        <div class="card-best" >
+                            <div class="image">
+                                <img src="images/p4.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                                <div class="stars-4">
+                                    <i class="fa-solid fa-star star-1"></i>
+                                    <i class="fa-solid fa-star star-2"></i>
+                                    <i class="fa-solid fa-star star-3"></i>
+                                    <i class="fa-solid fa-star star-4"></i>
+                                    <i class="fa-solid fa-star star-5"></i>
+                                </div>
+                                <div class="price">
+                                    <p>60$</p>
+                                </div>
+                                <button type="button" class="btn">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Buy
+                                </button>
+                                <i class="fa-regular fa-heart wishlist btn"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12">
+                        <div class="card-best" >
+                            <div class="image">
+                                <img src="images/p5.jpeg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                                <div class="stars-5">
+                                    <i class="fa-solid fa-star star-1"></i>
+                                    <i class="fa-solid fa-star star-2"></i>
+                                    <i class="fa-solid fa-star star-3"></i>
+                                    <i class="fa-solid fa-star star-4"></i>
+                                    <i class="fa-solid fa-star star-5"></i>
+                                </div>
+                                <div class="price">
+                                    <p>60$</p>
+                                </div>
+                                <button type="button" class="btn">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Buy
+                                </button>
+                                <i class="fa-regular fa-heart wishlist btn"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12">
+                        <div class="card-new">
+                            <div class="image">
+                                <img src="images/p6.jpeg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                                <div class="stars-6">
+                                    <i class="fa-solid fa-star star-1"></i>
+                                    <i class="fa-solid fa-star star-2"></i>
+                                    <i class="fa-solid fa-star star-3"></i>
+                                    <i class="fa-solid fa-star star-4"></i>
+                                    <i class="fa-solid fa-star star-5"></i>
+                                </div>
+                                <div class="price">
+                                    <p>60$</p>
+                                </div>
+                                <button type="button" class="btn">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Buy
+                                </button>
+                                <i class="fa-regular fa-heart wishlist btn"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12">
+                        <div class="card-new">
+                            <div class="image">
+                                <img src="images/p7.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                                <div class="stars-7">
+                                    <i class="fa-solid fa-star star-1"></i>
+                                    <i class="fa-solid fa-star star-2"></i>
+                                    <i class="fa-solid fa-star star-3"></i>
+                                    <i class="fa-solid fa-star star-4"></i>
+                                    <i class="fa-solid fa-star star-5"></i>
+                                </div>
+                                <div class="price">
+                                    <p>60$</p>
+                                </div>
+                                <button type="button" class="btn">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Buy
+                                </button>
+                                <i class="fa-regular fa-heart wishlist btn"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12">
+                        <div class="card-new">
+                            <div class="image">
+                                <img src="images/p8.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                                <div class="stars-8">
+                                    <i class="fa-solid fa-star star-1"></i>
+                                    <i class="fa-solid fa-star star-2"></i>
+                                    <i class="fa-solid fa-star star-3"></i>
+                                    <i class="fa-solid fa-star star-4"></i>
+                                    <i class="fa-solid fa-star star-5"></i>
+                                </div>
+                                <div class="price">
+                                    <p>60$</p>
+                                </div>
+                                <button type="button" class="btn">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Buy
+                                </button>
+                                <i class="fa-regular fa-heart wishlist btn"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="title text-center pt-5 pb-5">
+                    <h2>Big Deals!</h2>
+                    <p>The most popular products</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-4 col-12">
+                        <div class="card" >
+                            <div class="image">
+                                <img src="images/p9.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                                <div class="stars-1">
+                                    <i class="fa-solid fa-star star-1"></i>
+                                    <i class="fa-solid fa-star star-2"></i>
+                                    <i class="fa-solid fa-star star-3"></i>
+                                    <i class="fa-solid fa-star star-4"></i>
+                                    <i class="fa-solid fa-star star-5"></i>
+                                </div>
+                                <div class="price">
+                                    <p> <del style="font-size: 20px;">60$</del> 50$ </p>
+                                </div>
+                                <button type="button" class="btn">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Buy
+                                </button>
+                                <i class="fa-regular fa-heart wishlist btn"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12">
+                        <div class="card" >
+                            <div class="image">
+                                <img src="images/p10.jpeg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                                <div class="stars-2">
+                                    <i class="fa-solid fa-star star-1"></i>
+                                    <i class="fa-solid fa-star star-2"></i>
+                                    <i class="fa-solid fa-star star-3"></i>
+                                    <i class="fa-solid fa-star star-4"></i>
+                                    <i class="fa-solid fa-star star-5"></i>
+                                </div>
+                                <div class="price">
+                                    <p> <del style="font-size: 20px;">60$</del> 50$ </p>
+                                </div>
+                                <button type="button" class="btn">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Buy
+                                </button>
+                                <i class="fa-regular fa-heart wishlist btn"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12">
+                        <div class="card" >
+                            <div class="image">
+                                <img src="images/p11.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                                <div class="stars-3">
+                                    <i class="fa-solid fa-star star-1"></i>
+                                    <i class="fa-solid fa-star star-2"></i>
+                                    <i class="fa-solid fa-star star-3"></i>
+                                    <i class="fa-solid fa-star star-4"></i>
+                                    <i class="fa-solid fa-star star-5"></i>
+                                </div>
+                                <div class="price">
+                                    <p> <del style="font-size: 20px;">60$</del> 50$ </p>
+                                </div>
+                                <button type="button" class="btn">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Buy
+                                </button>
+                                <i class="fa-regular fa-heart wishlist btn"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12">
+                        <div class="card-best" >
+                            <div class="image">
+                                <img src="images/p4.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                                <div class="stars-4">
+                                    <i class="fa-solid fa-star star-1"></i>
+                                    <i class="fa-solid fa-star star-2"></i>
+                                    <i class="fa-solid fa-star star-3"></i>
+                                    <i class="fa-solid fa-star star-4"></i>
+                                    <i class="fa-solid fa-star star-5"></i>
+                                </div>
+                                <div class="price">
+                                    <p> <del style="font-size: 20px;">60$</del> 50$ </p>
+                                </div>
+                                <button type="button" class="btn">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Buy
+                                </button>
+                                <i class="fa-regular fa-heart wishlist btn"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12">
+                        <div class="card-best" >
+                            <div class="image">
+                                <img src="images/p5.jpeg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                                <div class="stars-5">
+                                    <i class="fa-solid fa-star star-1"></i>
+                                    <i class="fa-solid fa-star star-2"></i>
+                                    <i class="fa-solid fa-star star-3"></i>
+                                    <i class="fa-solid fa-star star-4"></i>
+                                    <i class="fa-solid fa-star star-5"></i>
+                                </div>
+                                <div class="price">
+                                    <p> <del style="font-size: 20px;">60$</del> 50$ </p>
+                                </div>
+                                <button type="button" class="btn">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Buy
+                                </button>
+                                <i class="fa-regular fa-heart wishlist btn"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12">
+                        <div class="card-new">
+                            <div class="image">
+                                <img src="images/p6.jpeg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                                <div class="stars-6">
+                                    <i class="fa-solid fa-star star-1"></i>
+                                    <i class="fa-solid fa-star star-2"></i>
+                                    <i class="fa-solid fa-star star-3"></i>
+                                    <i class="fa-solid fa-star star-4"></i>
+                                    <i class="fa-solid fa-star star-5"></i>
+                                </div>
+                                <div class="price">
+                                    <p> <del style="font-size: 20px;">60$</del> 50$ </p>
+                                </div>
+                                <button type="button" class="btn">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Buy
+                                </button>
+                                <i class="fa-regular fa-heart wishlist btn"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12">
+                        <div class="card-new">
+                            <div class="image">
+                                <img src="images/p7.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                                <div class="stars-7">
+                                    <i class="fa-solid fa-star star-1"></i>
+                                    <i class="fa-solid fa-star star-2"></i>
+                                    <i class="fa-solid fa-star star-3"></i>
+                                    <i class="fa-solid fa-star star-4"></i>
+                                    <i class="fa-solid fa-star star-5"></i>
+                                </div>
+                                <div class="price">
+                                    <p> <del style="font-size: 20px;">60$</del> 50$ </p>
+                                </div>
+                                <button type="button" class="btn">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Buy
+                                </button>
+                                <i class="fa-regular fa-heart wishlist btn"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12">
+                        <div class="card-new">
+                            <div class="image">
+                                <img src="images/p8.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                                <div class="stars-8">
+                                    <i class="fa-solid fa-star star-1"></i>
+                                    <i class="fa-solid fa-star star-2"></i>
+                                    <i class="fa-solid fa-star star-3"></i>
+                                    <i class="fa-solid fa-star star-4"></i>
+                                    <i class="fa-solid fa-star star-5"></i>
+                                </div>
+                                <div class="price">
+                                    <p> <del style="font-size: 20px;">60$</del> 50$ </p>
+                                </div>
+                                <button type="button" class="btn">
+                                    <i class="fa-solid fa-cart-plus"></i>
+                                    Buy
+                                </button>
+                                <i class="fa-regular fa-heart wishlist btn"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="products.html" class="d-flex justify-content-center text-decoration-none">
+                    <button type="button" class="btn mt-5 mb-5">shopping now</button>
+                </a>
+            </div>
+        </div>
+        <!-- end of products section -->
+        <!-- start fo footer -->
+        <footer class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-12 pt-md-4 pb-md-4 pt-sm-4 pb-sm-4">
+                        <img src="images/logoo.png" alt="#" class="mb-3">
+                        <p class="mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                        <div class="location mb-3">
+                            <i class="fa-solid fa-location-dot svg-1"></i>
+                            <p href="#" class="d-inline">18 Bayswater Road, BE34ALT, London.</p>
+                        </div>
+                        <div class="letter ">
+                            <i class="fa-regular fa-envelope svg-2"></i>
+                            <a href="#" class="text-decoration-none">office@kidsclub.com.</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-12 pt-md-4 pb-md-4 pt-4 pb-4">
+                        <h2 class="pb-2 text-white">Quick Links</h2>
+                        <div class="links d-flex lh-lg gap-4">
+                            <ul class="list-1 list-unstyled">
+                                <li>
+                                    <a href="clothes.html"  class="text-decoration-none">Clothing&shoses</a>
+                                </li>
+                                <li>
+                                    <a href="sports.html"  class="text-decoration-none">Sports</a>
+                                </li>
+                                <li>
+                                    <a href="games.html"  class="text-decoration-none">Games</a>
+                                </li>
+                                <li>
+                                    <a href="electronic.html"  class="text-decoration-none">Electronic</a>
+                                </li>
+                                <li>
+                                    <a href="office-products.html" class="text-decoration-none">Office Products</a>
+                                </li>
+                                <li>
+                                    <a href="automative.html" class="text-decoration-none"> Automotive Parts & Accessories</a>
+                                </li>
+                            </ul>
+                            <ul class="list-2 list-unstyled">
+                                <li>
+                                    <a href="food.html" class="text-decoration-none">Grocery & Gourmet Food</a>
+                                </li>
+                                <li>
+                                    <a href="home-related.html" class="text-decoration-none"> Home Related</a>
+                                </li>
+                                <li>
+                                    <a href="home&garden.html" class="text-decoration-none"> Home & Garden</a>
+                                </li>
+                                <li>
+                                    <a href="health.html" class="text-decoration-none"> Health, Household & Baby Care</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-12 pt-md-4 pb-md-4 pt-sm-4 pb-sm-4">
+                        <h2 class="pb-2 text-white">Contact us</h2>
+                        <p class="mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, sint voluptatibus? Illo vel ex, ratione iure cupiditate nihil labore asperiores nisi unde sapiente, voluptate illum maiores maxime, laborum quia voluptatibus.</p>
+                        <div class="social pt-3">
+                            <a href="#" class="text-decoration-none">
+                                <i class="fa-brands fa-facebook-f me-2 svg-3"></i>
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                                <i class="fa-brands fa-twitter me-2  svg-4"></i>
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                                <i class="fa-brands fa-instagram  me-2 svg-5"></i>
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                                <i class="fa-brands fa-whatsapp me-2 svg-6"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- start fo footer -->
+        <script src="js/all.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

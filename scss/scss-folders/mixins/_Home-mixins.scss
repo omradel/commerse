@@ -1,0 +1,15 @@
+@mixin buttons($background) {
+    background-color: $background;
+    border:$background solid 2px ;
+    &:hover {
+        color : $background;
+        border:$background solid 2px ;
+    }
+}
+
+@mixin svg ($color) {
+    &:hover {
+        color : $color;
+        border: solid 1px $color;
+    }
+}

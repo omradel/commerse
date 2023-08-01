@@ -1,0 +1,27 @@
+@import "../variables/home-var";
+@import "../mixins/Home-mixins";
+
+.part-one {
+    span > a{
+        color:$nav-color;
+        font-weight: bold;
+        &:hover {
+            color: $hover-color;
+        }
+        &:focus {
+            color:$hover-color;
+        }
+    }
+    ul {
+        li {
+            padding-left: 20px;
+            transition: all 0.3s ease;
+            &:hover {
+                padding-left: 10px;
+            }
+            a {
+                color:$nav-color;
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+@import "../variables/home-var";
+@import "../mixins/Home-mixins";
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+.form-box {
+    box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+    border-radius: 15px;
+}
+.primarybg {
+    background-color: $hover-color;
+    color: $white-color !important;
+    &:hover {
+        background-color: $hover-color;
+    }
+    &:focus {
+        background-color: $hover-color;
+    }
+}
+
+.primarycolor {
+    color: #ff0000;
+}
+
+
